@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>hgg</title>
+  <link rel="stylesheet" href="./css/cargaZapas.css">
+</head>
+
+<body>
+  <header>
+    <div class="header-content">
+      <div class="menu" id="show-menu">
+        <nav>
+          <ul>
+            <li class="menu-selected"><a href="../index.html" class="text-menu-selected">Inicio</a></li>
+            <li><a href="/pages/sobre-nos/sobre-nos.html">Sobre Nosotros</a></li>
+            <li><a href="/pages/login/login.html">Sign Up</a></li>
+          </ul>
+        </nav>
+      </div>
+  </header>
+
+  <main class="container">
+    <article class="gallery">
+      <p class="title">Carga de zapatillas</p>
+      <form class="form" id="cargaZP">
+        <input name="image" type="text" placeholder="Ingrese la URL de la imagen">
+        <input name="title" type="text" placeholder="Ingrese el nombre de la zapatilla">
+        <input name="price" type="text" placeholder="Ingrese el precio de la zapatilla">
+        <input name="description" type="text" placeholder="Ingrese una descripcion">
+        <input name="details" type="text" placeholder="Ingrese la URL de la zapatilla (pagina oficial nike)">
+        <input class="btn" type="submit" placeholder="Cargar">
+      </form>
+    </article>
+  </main>
+
+  <footer>
+    <div class="img-container">
+      <img src="/assets/nikeverse.png" class="img-footer">
+    </div>
+    <div class="footer-text">
+      <p>2023 <b>NikeVerse</b> - Todos los Derechos Reservados.</p>
+    </div>
+  </footer>
+
+  <script src="./js/cargaZapas.js"></script>
+</body>
+
+</html>
